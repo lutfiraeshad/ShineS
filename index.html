@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#"><strong>Shines</strong></a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Home
+            </a>
+      
+            <a class="navbar-item">
+              Documentation
+            </a>
+
+            <div class="field has-addons">
+                <div class="control">
+                  <input class="input is-link is-rounded" type="text" placeholder="Search Here">
+                </div>
+                <div class="control">
+                  <button class="button is-link is-rounded">
+                    <span class="icon">
+                      <i class="fas fa-search"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>             
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-link is-rounded">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-link is-outlined is-rounded">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+            <div class=" swiper swiper-promo" id="promo">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide" id="promo-slide">Slide 1</div>
+                  <div class="swiper-slide" id="promo-slide">Slide 2</div>
+                  <div class="swiper-slide" id="promo-slide">Slide 3</div>
+                  <div class="swiper-slide" id="promo-slide">Slide 4</div>
+                  <div class="swiper-slide" id="promo-slide">Slide 5</div>
+                  <div class="swiper-slide" id="promo-slide">Slide 6</div>
+                  <div class="swiper-slide" id="promo-slide">Slide 7</div>
+                  <div class="swiper-slide" id="promo-slide">Slide 8</div>
+                  <div class="swiper-slide" id="promo-slide">Slide 9</div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+    
+    <section class="hero is-small">
+      <div class="hero-body">
+        <button class="button is-warning" id="btn"></button>
+        <button class="button is-link" id="btn"></button>
+        <button class="button is-danger" id="btn"></button>
+        <button class="button is-info" id="btn"></button>
+      </div>
+    </section>
+    <section class="section is-small">
+      <h1 class="title is-size-4" id="new-arrival-title">New Arrival</h1>
+      <div class="swiper mySwiper" id="new-arrival-product">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image is-4by3">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">IDR 12.000</p>
+                      <p class="subtitle is-6">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">IDR 12.000</p>
+                      <p class="subtitle is-6">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">IDR 12.000</p>
+                      <p class="subtitle is-6">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>    
+    </section>
+    <section class="section is-small">
+      <h1 class="title is-size-4" id="top-product-title">Top Product</h1>
+      <div class="swiper mySwiper" id="top-product-product">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-5">IDR 12.000</p>
+                      <p class="subtitle is-7">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">IDR 12.000</p>
+                      <p class="subtitle is-6">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">IDR 12.000</p>
+                      <p class="subtitle is-6">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide" id="product-slide">
+            <div class="card" id="product-card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">IDR 12.000</p>
+                      <p class="subtitle is-6">Bunga Teratai</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <button class="button is-rounded is-small is-outlined is-link">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>    
+    </section>
+    <footer class="footer">
+      <section class="section">
+        <h1 class="title is-5">Metode Pembayaran</h1>
+        <div class="columns">
+          <div class="column">
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="alfamart.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="indomaret.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="gopay.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="ovo.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="qris.svg"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="indomaret.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="alfamart.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="indomaret.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="alfamart.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="indomaret.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="alfamart.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="indomaret.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="alfamart.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="indomaret.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="alfamart.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="card" id="payment-method-card">
+              <div class="card-image">
+                <figure class="image" id="payment-method">
+                  <img
+                    src="indomaret.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="content has-text-left">
+        <p>
+          <strong>Shines &copy; 2024</strong>
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
